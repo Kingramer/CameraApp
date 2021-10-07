@@ -31,7 +31,7 @@ struct ContentView: View {
                 }
             }
             if isPicking {
-                Rectangle()
+                ImagePicker()
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     .transition(.move(edge: .bottom))
                     .animation(.easeInOut)
