@@ -11,6 +11,7 @@
 		AA3A5C89270EBC4500027F06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A5C88270EBC4500027F06 /* ContentView.swift */; };
 		AA3A5C8B270EBC4E00027F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3A5C8A270EBC4E00027F06 /* Assets.xcassets */; };
 		AA3A5C8E270EBC4E00027F06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3A5C8D270EBC4E00027F06 /* Preview Assets.xcassets */; };
+		AA3A5C97270ECFC100027F06 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A5C96270ECFC100027F06 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AA3A5C8A270EBC4E00027F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA3A5C8D270EBC4E00027F06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA3A5C8F270EBC4E00027F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3A5C96270ECFC100027F06 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				AA3A5C86270EBC4500027F06 /* CameraAppApp.swift */,
 				AA3A5C88270EBC4500027F06 /* ContentView.swift */,
+				AA3A5C96270ECFC100027F06 /* ImagePicker.swift */,
 				AA3A5C8A270EBC4E00027F06 /* Assets.xcassets */,
 				AA3A5C8F270EBC4E00027F06 /* Info.plist */,
 				AA3A5C8C270EBC4E00027F06 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3A5C97270ECFC100027F06 /* ImagePicker.swift in Sources */,
 				AA3A5C89270EBC4500027F06 /* ContentView.swift in Sources */,
 				AA3A5C87270EBC4500027F06 /* CameraAppApp.swift in Sources */,
 			);
