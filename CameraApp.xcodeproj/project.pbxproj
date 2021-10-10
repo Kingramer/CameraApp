@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		AA3A5C87270EBC4500027F06 /* CameraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A5C86270EBC4500027F06 /* CameraAppApp.swift */; };
 		AA3A5C89270EBC4500027F06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A5C88270EBC4500027F06 /* ContentView.swift */; };
-		AA3A5C8B270EBC4E00027F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3A5C8A270EBC4E00027F06 /* Assets.xcassets */; };
 		AA3A5C8E270EBC4E00027F06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3A5C8D270EBC4E00027F06 /* Preview Assets.xcassets */; };
 		AA3A5C97270ECFC100027F06 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A5C96270ECFC100027F06 /* ImagePicker.swift */; };
 		AA3A5C9A270EDD6200027F06 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A5C99270EDD6200027F06 /* Coordinator.swift */; };
 		AAB8549D271269BC004EB889 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8549C271269BC004EB889 /* UIImageExtensions.swift */; };
+		AAB8549E2712829C004EB889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3A5C8A270EBC4E00027F06 /* Assets.xcassets */; };
+		AAB854A02712CBE5004EB889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB8549F2712CBE4004EB889 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AA3A5C96270ECFC100027F06 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		AA3A5C99270EDD6200027F06 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		AAB8549C271269BC004EB889 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		AAB8549F2712CBE4004EB889 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				AA3A5C99270EDD6200027F06 /* Coordinator.swift */,
 				AA3A5C8A270EBC4E00027F06 /* Assets.xcassets */,
 				AA3A5C8F270EBC4E00027F06 /* Info.plist */,
+				AAB8549F2712CBE4004EB889 /* LaunchScreen.storyboard */,
 				AA3A5C8C270EBC4E00027F06 /* Preview Content */,
 			);
 			path = CameraApp;
@@ -135,8 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB854A02712CBE5004EB889 /* LaunchScreen.storyboard in Resources */,
+				AAB8549E2712829C004EB889 /* Assets.xcassets in Resources */,
 				AA3A5C8E270EBC4E00027F06 /* Preview Assets.xcassets in Resources */,
-				AA3A5C8B270EBC4E00027F06 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
